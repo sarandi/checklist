@@ -4,6 +4,9 @@
 **** Check for incorrect punctuation marks, particularly apostrophes, quotation marks and hyphens/dashes	 
 **** Check headings for where you could potentially use ligatures	 
 **** Check for widow/orphan terms in important paragraphs	 
+*** Interaction Design
+**** Are all dynamic/motion/AJAX areas working?
+**** cursor pointers  
 *** Spelling and grammar	 
 *** Consistency	 
 **** Capitalisation (especially of main headings)	 
@@ -27,8 +30,9 @@
 *** Check for canonical domain issues (e.g. variations in links to http://site.com http://www.site.com http://www.site.com/index.html should be reduced to a single consistent style)	 
 *** Ensure content is marked-up semantically/correctly (h1, etc.)	 
 *** Check for target keyword usage in general content	 
-*** Check format (user/search engine friendliness) of URLs	 
+*** Check format (user/search engine friendliness) of URLs (use %20 or + to replace spaces)	 
 *** Set up Analytics, FeedBurner, and any other packages for measuring ongoing success	 
+*** Use rel="" coupled with jQuery/gAnalytics to track downloads and in-page/AJAX events http://bit.ly/UBaT6w  
 *** Create an XML Sitemap	 
 *** Configure Google Webmaster Console and Yahoo! Site Explorer	 
 ** Functional Testing
